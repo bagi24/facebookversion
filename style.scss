@@ -1,0 +1,205 @@
+.main-conteiner {
+  display: flex;
+  flex-direction: column;
+
+  .mainnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+
+  .nav1 {
+    display: flex;
+    align-items: center;
+
+    .fb-logo {
+      padding: 5px;
+      .fa-facebook {
+        font-size: 35px !important;
+        color: #3578e5;
+      }
+    }
+  }
+
+  .search {
+    position: relative;
+
+    .fa-magnifying-glass {
+      position: absolute !important;
+      left: 8px;
+      top: 8px;
+    }
+    input {
+      border-radius: 80px;
+      height: 25px;
+      width: 200px;
+      align-items: center;
+    }
+  }
+}
+
+.nav2 {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+
+  .fa-house {
+    font-size: 21px;
+  }
+  .fa-youtube-square {
+    font-size: 21px;
+  }
+
+  .fa-store {
+    font-size: 21px;
+  }
+
+  .fa-users-line {
+    font-size: 21px;
+  }
+
+  .fa-game-board-simple {
+    font-size: 21px;
+  }
+}
+
+.nav3 {
+  display: flex;
+  align-items: center;
+
+  .fa-bars {
+    font-size: 21px;
+    padding: 20px;
+  }
+
+  .fa-facebook-messenger {
+    font-size: 21px;
+    padding: 20px;
+  }
+
+  .fa-bell {
+    font-size: 21px;
+    padding: 20px;
+  }
+
+  .fa-user {
+    font-size: 21px;
+    padding: 20px;
+  }
+}
+
+.bottom-posts {
+  display: flex;
+
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .option-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    border-bottom: 1px solid black;
+
+    .l1 {
+      display: flex;
+
+      .l11 {
+        display: flex;
+        align-items: center;
+
+        .p1 {
+          font-family: inherit;
+          padding: 10px;
+        }
+      }
+    }
+
+    .fa-user {
+      font-size: 21px;
+    }
+    .fa-user-group {
+      font-size: 21px;
+    }
+
+    .fa-clock-rotate-left {
+      font-size: 21px;
+    }
+
+    .fa-shop {
+      font-size: 21px;
+    }
+
+    .fa-youtube-square {
+      font-size: 21px;
+    }
+
+    .fa-circle-down {
+      font-size: 21px;
+    }
+  }
+
+  .middleside {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid greenyellow;
+    //margin !!
+    margin-left: 100px;
+
+    .storybox {
+      display: flex;
+      border: 3px solid red;
+
+      .pad0 {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding: 5px;
+      }
+    }
+
+    .story1 {
+      list-style-type: none;
+      padding-top: 0px;
+
+      .img1 {
+        width: 100px;
+        height: 180px;
+      }
+    }
+    .add-pv {
+      .add-line1 {
+        display: flex;
+
+        .fa-user-plus {
+          font-size: 21px;
+          margin-right: 10px;
+        }
+        .whats {
+          input {
+            border-radius: 80px;
+            height: 25px;
+            width: 500px;
+          }
+        }
+      }
+      .add-line2 {
+        display: flex;
+        border: 3px solid green;
+        justify-content: space-around;
+        margin-top: 20px;
+        
+
+        .sort {
+        display: flex;
+          border: 3px solid red;
+        
+        }
+      }
+    }
+  }
+}
