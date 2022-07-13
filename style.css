@@ -128,7 +128,6 @@
 }
 .bottom-posts .middleside .storybox {
   display: flex;
-  border: 3px solid red;
 }
 .bottom-posts .middleside .storybox .pad0 {
   padding-top: 0px;
@@ -142,6 +141,10 @@
 .bottom-posts .middleside .story1 .img1 {
   width: 100px;
   height: 180px;
+}
+.bottom-posts .middleside .add-pv {
+  border: 5px solid silver;
+  padding: 15px;
 }
 .bottom-posts .middleside .add-pv .add-line1 {
   display: flex;
@@ -157,11 +160,112 @@
 }
 .bottom-posts .middleside .add-pv .add-line2 {
   display: flex;
-  border: 3px solid green;
   justify-content: space-around;
   margin-top: 20px;
+  border-top: 1px solid black;
+  padding: 5px;
 }
 .bottom-posts .middleside .add-pv .add-line2 .sort {
   display: flex;
+}
+.bottom-posts .middleside .add-pv .add-line2 .sort .p2 {
+  margin: 0px;
+  margin-left: 10px;
+}
+.bottom-posts .middleside .createRoom {
+  display: flex;
   border: 3px solid red;
+  align-items: center;
+  margin-top: 15px;
+}
+.bottom-posts .middleside .createRoom .btn1 {
+  border-radius: 90px;
+  height: 30px;
+  margin-left: 15px;
+}
+.bottom-posts .middleside .createRoom .sort1 {
+  display: flex;
+}
+.bottom-posts .middleside .createRoom .sort1 .p22 {
+  margin: 0px;
+  margin-left: 10px;
+}
+.bottom-posts .middleside .createRoom .fbFriends {
+  display: flex;
+  margin-left: 15px;
+  align-items: center;
+}
+.bottom-posts .middleside .createRoom .fbFriends .pati {
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  padding: 5px;
+}
+.bottom-posts .middleside .createRoom .fbFriends .btnPati {
+  border-radius: 50px;
+  height: 45px;
+  width: 45px;
+}
+.bottom-posts .middleside .newPost {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.bottom-posts .middleside .newPost .girchilogo {
+  display: flex;
+  margin-left: 15px;
+}
+.bottom-posts .middleside .newPost .girchilogo .namegirchi {
+  margin-left: 10px;
+}
+.bottom-posts .middleside .newPost .girchilogo .public {
+  font-size: 10px;
+}
+.bottom-posts .middleside .newPost .girchi1 {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  border: 2px solid gray;
+}
+.bottom-posts .middleside .newPost .newcomment .poto1 {
+  width: 584px;
+  height: 400px;
+}
+.bottom-posts .rightside {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+.bottom-posts .rightside .birthday {
+  border-bottom: 1px solid black;
+}
+.bottom-posts .rightside .birthday .fa-gift {
+  font-size: 21px;
+}
+.bottom-posts .rightside .contact {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-posts .rightside .contact .rightlogo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+.bottom-posts .rightside .onlinefriends .ulonline {
+  list-style-type: none;
+  padding: 0px;
+}
+.bottom-posts .rightside .onlinefriends .lionline {
+  display: flex;
+  padding: 0px;
+}
+.bottom-posts .rightside .onlinefriends .ponline {
+  margin-left: 5px;
+}
+.bottom-posts .rightside .onlinefriends .online {
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */
